@@ -1,0 +1,346 @@
+footer.home_six_footer {
+        background: #000000;
+}
+
+
+
+.footer_widget_wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+}
+
+
+.footer_widget {
+        margin-bottom: 30px;
+}
+
+.footer_widget .footer_logo {
+        margin-bottom: 10px;
+}
+
+.footer_widget p {
+        font-size: 16px;
+        font-weight: 400;
+        color: #7e7e7e;
+        line-height: 1.88;
+        font-family: "Poppins", sans-serif;
+}
+
+.footer_widget .mail_text {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+}
+
+.footer_widget .mail_text:hover {
+        color: #27ae61;
+}
+
+
+.footer_widget p.synUp_text {
+        font-size: 14px;
+        color: #aaaaaa;
+        font-weight: 500;
+}
+
+
+.footer_title h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 21px;
+        text-transform: uppercase;
+        color: #fff;
+}
+
+
+.footer_title2 h3 {
+        font-family: "Poppins", sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 13px;
+        text-transform: uppercase;
+        color: #fff;
+}
+
+
+footer li a {
+
+        font-size: 14px !important;
+        font-weight: 500 !important;
+        color: #aaaaaa !important;
+        font-family: "Poppins", sans-serif;
+        line-height: 2.14 !important;
+
+}
+
+
+.address_list {
+        max-width: 270px;
+}
+
+.address_list p {
+        font-size: 14px;
+        color: #656565;
+        margin-bottom: 0;
+        line-height: 1.86;
+        font-weight: 500;
+        margin-bottom: 15px;
+}
+
+/* .address_list &:not(:last-child) {
+        margin-bottom: 0;
+} */
+
+.address_list span {
+        font-weight: 700;
+}
+
+
+.large_address {
+        font-size: 40px;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 1px;
+        display: flex;
+        align-items: flex-start;
+        line-height: 0.75;
+}
+
+.large_address span {
+        font-size: 20px;
+        font-weight: 500;
+        margin-right: 5px;
+        display: inline-block;
+}
+
+
+.footer_opening_time {
+        margin: 15px 0 11px 0;
+        padding-bottom: 17px;
+        border-bottom: 1px solid #151515;
+
+
+}
+
+.footer_opening_time p {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 1.77;
+        color: #666666;
+}
+
+.help_text p {
+
+        font-size: 16px;
+        font-weight: 500;
+        color: #fff;
+}
+
+.help_text a {
+        color: #27ae61;
+}
+
+.address_text {
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "Poppins", sans-serif;
+        color: #aaaaaa;
+        margin-bottom: 5px;
+        line-height: 1.73;
+        max-width: 226px;
+}
+
+.footer_contact {
+        display: flex;
+        align-items: center;
+        grid-gap: 15px;
+
+}
+
+.footer_contact .thumb img {
+        width: 100%;
+}
+
+.contact_num p {
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        text-transform: uppercase;
+}
+
+.contact_num h5 {
+        font-size: 30px;
+        font-weight: 900;
+        color: #0cce6b;
+        margin-bottom: 0;
+}
+
+.contact_num span {
+        font-size: 16px;
+        font-weight: 700;
+}
+
+
+.footer_border {
+        border-top: 1px solid #1c5a1b;
+        border-bottom: 1px solid #1c5a1b;
+        padding-top: 31px;
+        padding-bottom: 7px;
+        margin-bottom: 39px;
+}
+
+.copyright_area {
+        padding-bottom: 47px;
+        padding-left: 15px;
+        padding-right: 15px;
+}
+
+.copy_right_text {
+        margin-bottom: 30px;
+}
+
+.copy_right_text p {
+        margin-bottom: 0;
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        text-transform: capitalize;
+}
+
+.copy_right_text a {
+        color: #27ae61;
+}
+
+
+.payment_imgs {
+        text-align: right;
+        margin-bottom: 30px;
+
+}
+
+/* // newsletter */
+.theme_mailChimp {
+        background: transparent;
+        flex-wrap: nowrap;
+        border-radius: 5px;
+        position: relative;
+}
+
+.theme_mailChimp form {
+        display: grid;
+        grid-template-columns: auto 120px;
+        grid-gap: 10px;
+        border: 0;
+        border-radius: 0px;
+}
+
+
+.theme_mailChimp .form-control {
+        background: #fff;
+        color: #00124e;
+        font-weight: 400;
+        padding-left: 20px;
+        border-radius: 0;
+        height: 50px;
+        border: 0;
+        font-family: "Cerebri Sans";
+        font-size: 14px;
+        border: 1px solid #f1f1f1;
+        border-right: 0;
+        border-radius: 5px;
+}
+
+
+.theme_mailChimp .form-control::placeholder {
+        color: #676e8b;
+        font-size: 14px;
+}
+
+.theme_mailChimp .form-control:focus {
+        box-shadow: none !important;
+        z-index: 1;
+}
+
+.theme_mailChimp button {
+        font-size: 14px;
+        font-weight: 700;
+        color: #fff;
+        background: #44a648;
+        text-transform: uppercase;
+        border-radius: 5px !important;
+        padding: 0 18px;
+        box-shadow: none !important;
+        position: relative;
+        right: 0;
+        top: 0;
+        border: 0;
+        height: 50px;
+        font-family: "Cerebri Sans";
+}
+
+
+.theme_mailChimp .info {
+        font-size: 14px;
+        font-weight: 500;
+        color: #fff;
+        position: absolute;
+        left: 0;
+        top: 110%;
+}
+
+
+.social__Links3 a {
+        font-size: 16px;
+        color: #fff;
+}
+
+.social__Links3 a:not(:last-child) {
+        margin-right: 25px;
+}
+
+.social__Links3 a:hover {
+        color: #44a648;
+}
+
+.footer_middle_wrap {
+        padding-left: 15px;
+        padding-right: 15px;
+}
+
+@media screen and (min-width: 767px) {
+
+        .main_footer_wrap {
+                padding-top: 71px;
+                padding-bottom: 15px;
+        }
+
+        .theme_mailChimp button {
+                border-radius: 5px !important;
+        }
+
+        .theme_mailChimp .form-control {
+                border-radius: 5px;
+        }
+
+        .theme_mailChimp form {
+                grid-template-columns: auto;
+        }
+
+        .payment_imgs img {
+                width: 100%;
+
+        }
+
+        .copyright_area {
+                padding-bottom: 8px;
+
+        }
+
+        .contact_num h5 {
+                font-size: 25px;
+
+        }
+}
