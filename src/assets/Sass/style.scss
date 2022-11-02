@@ -1,3 +1,4 @@
+$body_text: #687083;
 $tab: "(max-width: 767.98px)";
 $white: #fff;
 .hero_Banner {
@@ -106,6 +107,10 @@ $white: #fff;
     }
   }
   
+  //best selling section 
+  .section_pacing{
+   padding: 50px 50px;
+  }
   // Add cart button 
 .home22_addCard_btn {
     border-radius: 30px;
@@ -119,7 +124,7 @@ $white: #fff;
     width: 40px;
     height: 40px;
     flex: 40px 0 0;
-    background: #28af62;
+    background: #000000;
     text-align: center;
     display: flex;
     align-items: center;
@@ -138,7 +143,7 @@ $white: #fff;
   }
   
   .home22_addCard_btn:hover {
-    background: #28af62;
+    background: #000000;
     padding: 0 20px 0 8px;
     grid-gap: 0px;
   }
@@ -147,3 +152,185 @@ $white: #fff;
     color: #fff;
   }
   
+  // swiper  navigation
+.swiperSlide_button_group {
+  display: flex;
+  grid-gap: 10px;
+
+  @media #{$tab} {
+    display: none;
+  }
+}
+
+.swiper_button{
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #ebebeb;
+  color: #000000;
+  font-size: 16px;
+  transition: 0.3s;
+  cursor: pointer;
+  background: #fff;
+
+  &:hover{
+    background: #000000;
+    border-color: #000000;
+    color: #fff;
+  }
+}
+.product_widget26 {
+  border: 1px solid #ebebeb;
+  height: 520px;
+  position: relative;
+
+  .product_thumb_upper {
+    position: relative;
+
+    .offer_badge {
+      background: rgb(12 207 106 / 80%);
+      font-size: 12px;
+      font-weight: 700;
+      color: #fff;
+      border-radius: 2px;
+      position: absolute;
+      left: 20px;
+      top: 20px;
+      padding: 1.5px 8px;
+      font-family: "Poppins", sans-serif;
+      z-index: 12;
+      min-width: 44px;
+      text-align: center;
+    }
+
+    .product_action {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      display: flex;
+      justify-content: center;
+      background: #fff;
+      border-radius: 5px;
+      box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.05);
+      transition: 0.5s;
+      opacity: 0;
+      visibility: hidden;
+      transform: translate(-50%, -50%) scale(1.2);
+      z-index: 1200;
+
+      .a {
+        width: 47.5px;
+        height: 45px;
+        color: #202e3b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 15px;
+        position: relative;
+
+        &:hover {
+          color: #0cce6b;
+        }
+
+        &:not(:last-child)::before {
+          height: 15px;
+          background: #f1f1f1;
+          width: 1px;
+          content: "";
+          position: absolute;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+    }
+  }
+
+  .thumb {
+    background: #fff;
+    padding: 0;
+    display: block;
+    margin: 10px;
+    overflow: hidden;
+    max-height: 300px;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      transform: scale(1);
+      transition: 0.3s;
+      max-width: 100%;
+      max-height: 290px;
+    }
+  }
+
+  .product__meta {
+    padding: 20px;
+
+    .product_prise {
+      position: relative;
+      overflow: hidden;
+      margin-bottom: 17px;
+      
+
+    //   // p {
+    //   //   font-size: 18px;
+    //   //   font-weight: 700;
+    //   //   color: #00124e;
+    //   //   transition: 0.3s;
+    //   // }
+    }
+  }
+
+&:hover {
+    box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.05);
+    border-color: transparent;
+
+    .product_action {
+      opacity: 1;
+      visibility: visible;
+      transform: translate(-50%, -50%) scale(1);
+    }
+
+    .thumb img {
+      transform: scale(1.1);
+    }
+  }
+}
+
+.stars{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+ 
+
+  i{
+    font-size: 15px;
+
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+}
+.product_name{
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 9px;
+  line-height: 1.4;
+  transition: 0.3s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+ 
+
+  &:hover {
+    color: #684314;
+  }
+}

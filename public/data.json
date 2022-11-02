@@ -8,7 +8,8 @@
         "price": 1000,
         "description": "Mariana Andros is a brilliant but troubled group therapist who becomes fixated on The Maidens when one member, a friend of Mariana’s niece Zoe, is found murdered in Cambridge.Mariana, who was once herself a student at the university, quickly suspects that behind the idyllic beauty of the spires and turrets",
         "discount":0,
-        "category": ["man","woman","t-shirt","shoe"]
+        "category": ["man","woman","t-shirt","shoe"],
+        "product_reviews": 5
         
     },
     {
@@ -18,7 +19,8 @@
         "price": 980,
         "description": "Mariana Andros is a brilliant but troubled group therapist who becomes fixated on The Maidens when one member, a friend of Mariana’s niece Zoe, is found murdered in Cambridge.Mariana, who was once herself a student at the university, quickly suspects that behind the idyllic beauty of the spires and turrets",
         "discount":0,
-        "category": ["man","woman","t-shirt","shoe"]
+        "category": ["man","woman","t-shirt","shoe"],
+        "product_reviews": 4
     },
     {
         "_id": 3,
@@ -27,7 +29,8 @@
         "price": 880,
         "description": "Mariana Andros is a brilliant but troubled group therapist who becomes fixated on The Maidens when one member, a friend of Mariana’s niece Zoe, is found murdered in Cambridge.Mariana, who was once herself a student at the university, quickly suspects that behind the idyllic beauty of the spires and turrets",
         "discount":0,
-        "category": ["man","woman","t-shirt","shoe"]
+        "category": ["man","woman","t-shirt","shoe"],
+        "product_reviews": 3
     },
     {
         "_id": 4,
@@ -36,7 +39,8 @@
         "price": 680,
         "description": "Mariana Andros is a brilliant but troubled group therapist who becomes fixated on The Maidens when one member, a friend of Mariana’s niece Zoe, is found murdered in Cambridge.Mariana, who was once herself a student at the university, quickly suspects that behind the idyllic beauty of the spires and turrets",
         "discount":0,
-        "category": ["man","woman","t-shirt","shoe"]
+        "category": ["man","woman","t-shirt","shoe"],
+        "product_reviews": 5
     },
     {
         "_id": 5,
@@ -45,7 +49,8 @@
         "price": 380,
         "description": "Mariana Andros is a brilliant but troubled group therapist who becomes fixated on The Maidens when one member, a friend of Mariana’s niece Zoe, is found murdered in Cambridge.Mariana, who was once herself a student at the university, quickly suspects that behind the idyllic beauty of the spires and turrets",
         "discount":0,
-        "category": ["man","woman","t-shirt","shoe"]
+        "category": ["man","woman","t-shirt","shoe"],
+        "product_reviews": 3
     },
     {
         "_id": 6,
@@ -54,7 +59,8 @@
         "price": 280,
         "description": "Mariana Andros is a brilliant but troubled group therapist who becomes fixated on The Maidens when one member, a friend of Mariana’s niece Zoe, is found murdered in Cambridge.Mariana, who was once herself a student at the university, quickly suspects that behind the idyllic beauty of the spires and turrets",
         "discount":0,
-        "category": ["man","woman","t-shirt","shoe"]
+        "category": ["man","woman","t-shirt","shoe"],
+        "product_reviews": 5
     },
     {
         "_id": 7,
@@ -72,7 +78,8 @@
         "price": 980,
         "description": "Mariana Andros is a brilliant but troubled group therapist who becomes fixated on The Maidens when one member, a friend of Mariana’s niece Zoe, is found murdered in Cambridge.Mariana, who was once herself a student at the university, quickly suspects that behind the idyllic beauty of the spires and turrets",
         "discount":20,
-        "category": ["man","woman","t-shirt","shoe"]
+        "category": ["man","woman","t-shirt","shoe"],
+        "product_reviews": 2
     },
     {
         "_id": 9,
@@ -81,7 +88,8 @@
         "price": 880,
         "description": "Mariana Andros is a brilliant but troubled group therapist who becomes fixated on The Maidens when one member, a friend of Mariana’s niece Zoe, is found murdered in Cambridge.Mariana, who was once herself a student at the university, quickly suspects that behind the idyllic beauty of the spires and turrets",
         "discount":50,
-        "category": ["man","woman","t-shirt","shoe"]
+        "category": ["man","woman","t-shirt","shoe"],
+        "product_reviews": 5
     },
     {
         "_id": 10,
@@ -90,6 +98,7 @@
         "price": 580,
         "description": "Mariana Andros is a brilliant but troubled group therapist who becomes fixated on The Maidens when one member, a friend of Mariana’s niece Zoe, is found murdered in Cambridge.Mariana, who was once herself a student at the university, quickly suspects that behind the idyllic beauty of the spires and turrets",
         "discount":10,
-        "category": ["man","woman","t-shirt","shoe"]
+        "category": ["man","woman","t-shirt","shoe"],
+        "product_reviews": 5
     }
 ]

@@ -10,7 +10,7 @@ const AddCartButton = () => {
                 <h5 className="text-sm font-bold text-uppercase m-0">
                     ADD TO CART
                 </h5>
-            </button> :
+            </button> 
             
         </div>
     );

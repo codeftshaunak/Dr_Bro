@@ -5,6 +5,8 @@ import Services from "../../components/Services";
 import Trusted from "../../components/Trusted";
 import FeatureProducts from "../../components/FeatureProducts";
 import BestSelling from "../../components/BestSelling/BestSelling";
+import Banner from "../../components/Banner/Banner";
+
 
 const Home = () => {
   // const data = {
@@ -22,6 +24,8 @@ const Home = () => {
       <HeroSection />
       <FeatureProducts />
       <BestSelling/>
+      <Banner/>
+      
       <Services />
       <Trusted />
     </>

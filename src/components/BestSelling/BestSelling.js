@@ -3,7 +3,9 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import AddCartButton from '../AddCartButton/AddCartButton';
 import { FaHeart, FaEye, FaShoppingCart, FaRegEye } from "react-icons/fa";
-
+import { AiFillStar } from "react-icons/ai";
+import { BsStar } from "react-icons/bs";
+import { BsArrowLeftShort , BsArrowRightShort } from "react-icons/bs";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -40,10 +42,11 @@ const BestSelling = () => {
                     {/* swiper slider */}
                     <div className="swiperSlide_button_group">
                         <div className="swiper_button swiper_button_prev" ref={prevRef}>
-                            <i class="fa-solid fa-angle-left"></i>
+                        <BsArrowLeftShort></BsArrowLeftShort>
                         </div>
                         <div className="swiper_button swiper_button_next" ref={nextRef}>
-                            <i class="fa-solid fa-angle-right"></i>
+                        <BsArrowRightShort></BsArrowRightShort>
+                            {/* <i class="fa-solid fa-angle-right"></i> */}
                         </div>
                     </div>
                 </div>
@@ -92,13 +95,33 @@ const BestSelling = () => {
                                             <img src={product.image} alt="" />
                                         </Link>
                                         <div className="product_action">
-                                            <WishListButton _id={product._id} />
-                                            <QuickViewButton _id={product._id} />
-                                            <CartButton _id={product._id} />
+                                           <WishListButton></WishListButton>
+                                           <QuickViewButton></QuickViewButton>
+                                           <CartButton className=''></CartButton>
                                         </div>
-
                                     </div>
+                                    <div className='product_meta pl-8'>
+                                        <Link to={`/`}> <h4 className='product_name'>{product.product_name}</h4></Link>
 
+                                        <div className="stars">
+                                            {product?.average_rating >= 1 ? <AiFillStar className="text-[#ffc107]" /> : <BsStar />}
+                                            {product?.average_rating >= 2 ? <AiFillStar className="text-[#ffc107]" /> : <BsStar />}
+                                            {product?.average_rating >= 3 ? <AiFillStar className="text-[#ffc107]" /> : <BsStar />}
+                                            {product?.average_rating >= 4 ? <AiFillStar className="text-[#ffc107]" /> : <BsStar />}
+                                            {product?.average_rating === 5 ? <AiFillStar className="text-[#ffc107]" /> : <BsStar />}
+                                            {/* <span className="text-sm font-medium">
+                                                ({product.product_reviews.length})
+                                            </span> */}
+                                        </div>
+                                        <div className="product_prise flex items-center gap-2">
+                                            {/* <span className="line-through">
+                                                {product.discount > 0 &&
+                                                    `₹${product.discount + product.book_price}.00`}
+                                            </span> */}
+                                            <p >₹{product.price}.00</p>
+                                        </div>
+                                        <AddCartButton />
+                                    </div>
                                 </div>
 
                             </SwiperSlide>

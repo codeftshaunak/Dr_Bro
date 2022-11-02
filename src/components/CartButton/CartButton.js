@@ -4,7 +4,7 @@ const CartButton = () => {
     return (
         <div>
          <button className=" hover:text-primar duration-500 a " >
-     <FaShoppingBasket className='text-primary'/> : <FaShoppingBasket />
+     <FaShoppingBasket className='text-primary'/> 
   
   </button>   
         </div>
