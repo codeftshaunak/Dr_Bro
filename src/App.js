@@ -14,7 +14,7 @@ import Header from "./components/Header";
 import Contact from "./Contact";
 import ErrorPage from "./ErrorPage";
 import { GlobalStyle } from "./GlobalStyle";
-import Home from "./Home";
+import Home from "../src/Pages/Home/Home";
 import Products from "./Products";
 import SingleProduct from "./SingleProduct";
 
